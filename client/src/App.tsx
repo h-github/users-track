@@ -15,6 +15,7 @@ function App() {
           <Switch>
             <Route path="/" component={UsersPage} exact />
             <Route path="/add-new-user" component={AddNewUserForm} />
+            <Route path="/update-user/:email" component={AddNewUserForm} />
             <Route component={NotFoundPage} />
           </Switch>
         </div>

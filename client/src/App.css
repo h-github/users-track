@@ -7,6 +7,7 @@ body {
   height: 100vh;
 }
 
+div.btn-wrapper > a,
 button {
   padding: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -15,6 +16,15 @@ button {
   color: white;
   border-radius: 8px;
   cursor: pointer;
+}
+
+button.warning {
+  background-color: #c71212;
+}
+
+div.btn-wrapper > a {
+  margin-left: 10px;
+  text-decoration: none;
 }
 
 h3,
